@@ -1,10 +1,10 @@
-import express, { Application, Request, Response } from "express";
+import express, { Application } from "express";
+import { errorHandler } from "./middlewares/errorHandler";
 
 const app: Application = express();
 app.use(express.json());
 
-app.get("/ping", (_req: Request, res: Response) => {
-  res.send("pong");
-});
+// Global Error Handler
+app.use(errorHandler);
 
 export default app;
