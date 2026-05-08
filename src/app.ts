@@ -1,8 +1,12 @@
 import express, { Application } from "express";
+import healthRoutes from "./routes/health.routes";
 import { errorHandler } from "./middlewares/errorHandler";
 
 const app: Application = express();
 app.use(express.json());
+
+// Routes
+app.use("/health", healthRoutes);
 
 // Global Error Handler
 app.use(errorHandler);
