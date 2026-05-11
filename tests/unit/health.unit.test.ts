@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { Request, Response } from "express";
-import { HealthController } from "../src/controllers/health.controller";
+import { HealthController } from "../../src/controllers/health.controller";
 
 describe("HealthController", () => {
   it("should return a status of 'ok'", () => {

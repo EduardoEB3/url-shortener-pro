@@ -1,8 +1,8 @@
 import { describe, it, mock, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { Request, Response } from "express";
-import { UrlController } from "../src/controllers/url.controller";
-import { UrlService } from "../src/services/url.service";
+import { UrlController } from "../../src/controllers/url.controller";
+import { UrlService } from "../../src/services/url.service";
 
 describe("UrlController", () => {
   const createMockResponse = () => {
