@@ -1,4 +1,4 @@
-# URL Shorter Pro
+# URL Shortener Pro
 
 A robust, fast and scalable URL shortener API built with Node.js, Express, TypeScript, MongoDB, and Redis.
 
