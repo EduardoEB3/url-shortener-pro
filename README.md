@@ -1,6 +1,6 @@
 # URL Shortener Pro
 
-A robust, fast and scalable URL shortener API built with Node.js, Express, TypeScript, MongoDB, and Redis.
+A robust, fast and scalable URL shortener API built with Node.js, Express, TypeScript, MongoDB and Redis.
 
 ## 🚀 Tech Stack
 
@@ -91,4 +91,4 @@ tests/
 
 ## 📝 License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
